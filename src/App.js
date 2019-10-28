@@ -34,7 +34,7 @@ class App extends React.Component {
       <div className="App">
         <Quoteapi simpson={this.state.simpson}></Quoteapi>
         <button type="button" onClick={this.getQuote}>
-          Get quote
+          Get quotes
         </button>
       </div>
     );
